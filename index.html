@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Of Doom</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header id="header">
+        <h1>DICE OF DOOM</h1>
+    </header>
+
+    <main>
+        <!-- dice section -->
+        <section id="dice-section">
+            <div id="dice-output"></div>
+        </section>
+
+        <!-- button section -->
+        <section id="button-section">
+            <button type="button" id="add-btn">ADD PLAYER</button>
+        </section>
+
+        <!-- list section -->
+        <section id="list-section">
+            <!-- player section -->
+            <section class="player-section">
+                <header class="player-header">
+                    <h1>CURRENT PLAYERS</h1>
+                </header>
+
+                <div id="current" class="player-list"></div>
+            </section>
+
+            <section class="player-section">
+                <header class="player-header">
+                    <h1>DISMISSED PLAYERS</h1>
+                </header>
+
+                <div id="dismissed" class="player-list"></div>
+            </section>
+
+            <section class="player-section">
+                <header class="player-header">
+                    <h1>WINNER</h1>
+                </header>
+
+                <!-- winner -->
+                <div id="winner">
+                    <h1>WINNER</h1>
+                    <button type="button" id="restart">RESTART</button>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <script type="text/javascript" src="./app.js"></script>
+</body>
+
+</html>
